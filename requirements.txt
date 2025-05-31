@@ -1,7 +1,13 @@
-streamlit
-pandas
-numpy
-requests
-plotly
-python-dateutil
-vectorbt  # Optional: only if you want backtesting
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# Optional but recommended for full functionality
+vectorbt>=0.25.0
+plotly>=5.15.0
+
+# Additional utilities
+pytz>=2023.3
