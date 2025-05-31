@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Data
+data/*.csv
+
+# IDE/editor junk
+.vscode/
+*.log
